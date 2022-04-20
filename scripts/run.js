@@ -7,7 +7,7 @@ async function main() {
   const [owner] = await hre.ethers.getSigners();
 
   // Get contract that we want to deploy
-  const contractFactory = await hre.ethers.getContractFactory("ParaPreppers");
+  const contractFactory = await hre.ethers.getContractFactory("A2Heroes");
   console.log("cid:", process.env.PRIVATE_KEY);
 
   // Deploy contract with the correct constructor arguments
